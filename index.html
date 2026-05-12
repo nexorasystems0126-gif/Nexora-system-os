@@ -4,13 +4,29 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nexora Systems — Digital Customer-Flow Systems</title>
+  <link rel="icon" href="assets/nexora-icon.png" type="image/png" />
   <meta name="description" content="Nexora Systems builds premium websites, booking flows, automation systems, and customer-flow infrastructure for hospitality and lifestyle brands." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
 
-  <style>
+ <style>
+  .logo-brand img {
+    width: 150px;
+    height: auto;
+    display: block;
+  }
+
+  @media (max-width: 620px) {
+    .logo-brand img {
+      width: 126px;
+    }
+  }
+
+  :root {
+    ...
+  }
     :root {
       --graphite: #0B0D0E;
       --soft-black: #111315;
@@ -1291,7 +1307,9 @@
 <body>
   <header>
     <div class="container nav">
-      <a class="brand" href="#top" aria-label="Nexora Systems home">
+      <a class="brand logo-brand" href="#top" aria-label="Nexora Systems home">
+  <img src="assets/nexora-logo.png" alt="Nexora Systems logo" />
+</a>
         <span class="brand-mark" aria-hidden="true"></span>
         <span>Nexora Systems<small>Digital Infrastructure</small></span>
       </a>
